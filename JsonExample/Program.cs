@@ -18,9 +18,10 @@ namespace JsonExample
 
             Darbuotojas darbuotojas = JsonConvert.DeserializeObject<Darbuotojas>(jsonAtsakymas);
 
-            Console.WriteLine($"Name: {darbuotojas.Vardas}");
-            Console.WriteLine($"Age: {darbuotojas.Amzius}");
-            Console.WriteLine($"City: {darbuotojas.Miestas}");
+           
+            Console.WriteLine($"Vardas: {darbuotojas.Vardas}");
+            Console.WriteLine($"Amzius: {darbuotojas.Amzius}");
+            Console.WriteLine($"Miestas: {darbuotojas.Miestas}");
         }
     }
 }
