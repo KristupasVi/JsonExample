@@ -11,17 +11,6 @@ namespace JsonExample
             public string Miestas { get; set; }
         }
 
-        public class Adminas : Darbuotojas
-        {
-            public string Role { get; set; } = "adminas";
-            public bool priziuretojas { get; set; } = true;
-        }
-
-        public class Programuotojas : Darbuotojas {
-            public string Role { get; set; } = "vartotojas";
-            public bool priziuretojas { get; set; } = false;
-
-        }
         static void Main(string[] args)
         {
             string failoKelias = "C:\\Users\\krist\\OneDrive\\Desktop\\C#NuGET\\JsonExample\\JsonExample\\DarbuotojaiJSON.json";
