@@ -20,7 +20,7 @@ namespace JsonExample
         public class Programuotojas : Darbuotojas
         {
             public string Role { get; set; } = "Programuotojas";
-            public string pareigos { get; set; }
+            public string Pareigos { get; set; }
 
         }
         static void Main(string[] args)
