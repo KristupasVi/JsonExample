@@ -13,12 +13,12 @@ namespace JsonExample
 
         public class Adminas : Darbuotojas
         {
-            public string Role { get; set; } = "adminas";
+            public string Role { get; set; } = "Adminas";
             public bool priziuretojas { get; set; } = true;
         }
 
         public class Programuotojas : Darbuotojas {
-            public string Role { get; set; } = "vartotojas";
+            public string Role { get; set; } = "Programuotojas";
             public bool priziuretojas { get; set; } = false;
 
         }
