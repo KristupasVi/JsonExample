@@ -24,7 +24,7 @@ namespace JsonExample
         }
         static void Main(string[] args)
         {
-            string failoKelias = "C:\\Users\\krist\\OneDrive\\Desktop\\C#NuGET\\JsonExample\\JsonExample\\DarbuotojuTipai.json";
+            string failoKelias = "C:\\Users\\krist\\OneDrive\\Desktop\\C#NuGET\\JsonExample\\JsonExample\\DarbuotojaiJSON.json";
 
             string jsonAtsakymas = File.ReadAllText(failoKelias);
 
@@ -34,7 +34,6 @@ namespace JsonExample
             {
                 Console.WriteLine($"Vardas: {darbuotojas.Vardas}, Amzius:{darbuotojas.Amzius}, Miestas: {darbuotojas.Miestas}");
             }
-          
         }
     }
 }
