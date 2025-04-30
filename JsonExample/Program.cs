@@ -17,7 +17,8 @@ namespace JsonExample
             public bool priziuretojas { get; set; } = true;
         }
 
-        public class Programuotojas : Darbuotojas {
+        public class Programuotojas : Darbuotojas
+        {
             public string Role { get; set; } = "Programuotojas";
             public string pareigos { get; set; }
 

@@ -3,7 +3,8 @@
         "Role": "Adminas",
         "Vardas": "Jonas",
         "Amzius": 24,
-        "Miestas": "Vilnius"
+        "Miestas": "Vilnius",
+        "priziuretojas":  true
 
     },
     {
@@ -11,6 +12,13 @@
         "Vardas": "Monika",
         "Amzius": 21,
         "Miestas": "Siauliai",
-        "Pareigos":  "front-end"
+        "Pareigos": "front-end"
+    },
+    {
+        "Role": "Programuotojas",
+        "Vardas": "Juozas",
+        "Amzius": 38,
+        "Miestas": "Vilnius",
+        "Pareigos": "back-end"
     }
 ]
