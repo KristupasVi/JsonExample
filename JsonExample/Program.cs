@@ -19,12 +19,12 @@ namespace JsonExample
 
         public class Programuotojas : Darbuotojas {
             public string Role { get; set; } = "Programuotojas";
-            public bool priziuretojas { get; set; } = false;
+            public string pareigos { get; set; }
 
         }
         static void Main(string[] args)
         {
-            string failoKelias = "C:\\Users\\krist\\OneDrive\\Desktop\\C#NuGET\\JsonExample\\JsonExample\\DarbuotojaiJSON.json";
+            string failoKelias = "C:\\Users\\krist\\OneDrive\\Desktop\\C#NuGET\\JsonExample\\JsonExample\\DarbuotojuTipai.json";
 
             string jsonAtsakymas = File.ReadAllText(failoKelias);
 
@@ -34,6 +34,7 @@ namespace JsonExample
             {
                 Console.WriteLine($"Vardas: {darbuotojas.Vardas}, Amzius:{darbuotojas.Amzius}, Miestas: {darbuotojas.Miestas}");
             }
+          
         }
     }
 }

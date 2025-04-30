@@ -1,0 +1,16 @@
+[
+    {
+        "Role": "Adminas",
+        "Vardas": "Jonas",
+        "Amzius": 24,
+        "Miestas": "Vilnius"
+
+    },
+    {
+        "Role": "Programuotojas",
+        "Vardas": "Monika",
+        "Amzius": 21,
+        "Miestas": "Siauliai",
+        "Pareigos":  "front-end"
+    }
+]
