@@ -1,5 +1,13 @@
-{
-    "Vardas": "John Doe",
-    "Amzius": 30,
-    "Miestas": "New York"
-}
+[
+    {
+        "Vardas": "John Doe",
+        "Amzius": 30,
+        "Miestas": "New York"
+    },
+    {
+        "Vardas": "Marius",
+        "Amzius": 29,
+        "Miestas": "Jonava"
+    }
+
+]
